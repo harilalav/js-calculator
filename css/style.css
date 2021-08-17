@@ -112,12 +112,25 @@ a:hover, [type="submit"]:hover {
 }
 #spotlight section.wrapper div.mobile div.screen {
     width: 50%;
+    background: aliceblue;
+    border-radius: 20px;
+    padding-top: 25px;
 }
 #spotlight section.wrapper div.mobile div.screen div.output {
 }
 #spotlight section.wrapper div.mobile div.screen div.output #result {
     padding: 25px 0px;
     font-size: 50px;
+}
+#spotlight section.wrapper div.mobile div.screen div.output a.clear{
+    display: inline-block;
+    width: 50px;
+    margin-left: 15px;
+}
+#spotlight section.wrapper div.mobile div.screen div.output a.clear svg{
+    display: block;
+    width: 100%;
+    color: lightskyblue;
 }
 #spotlight section.wrapper div.mobile div.screen div.values {
     display: flex;
@@ -146,16 +159,17 @@ a:hover, [type="submit"]:hover {
 #spotlight section.wrapper div.mobile div.screen div.values ul.integers li:nth-child(3n) {
     margin-right: 0px;
 }
-#spotlight section.wrapper div.mobile div.screen div.values ul.integers li:nth-child(9n) {
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers li:nth-child(10+n) {
     margin-bottom: 0px;
 }
 #spotlight section.wrapper div.mobile div.screen div.values ul.integers li a {
     padding: 35px;
+    font-size: 25px;
 }
 #spotlight section.wrapper div.mobile div.screen div.values ul.operators {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     width: 15%;
 }
@@ -173,5 +187,5 @@ a:hover, [type="submit"]:hover {
     margin-bottom: 0px;
 }
 #spotlight section.wrapper div.mobile div.screen div.values ul.operators li a {
-    padding: 35px;
+    padding: 38px;
 }
