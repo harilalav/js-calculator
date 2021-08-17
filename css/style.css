@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+ol, ul {
+    list-style: none;
+}
+li:last-child {
+    margin: 0px;
+}
+blockquote {
+    quotes: none;
+}
+blockquote::before, blockquote::after {
+    content: none;
+}
+del {
+    text-decoration: line-through;
+}
+header, section, article, aside, nav.main-nav, footer, address {
+    display: block;
+}
+body {
+    font-family: product_sansregular, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+    overflow-x: hidden;
+    min-width: 320px;
+}
+input, textarea, select {
+    font-family: product_sansregular, Arial, Helvetica, sans-serif;
+}
+p {
+    line-height: 1.6em;
+    font-family: product_sansregular;
+}
+br.clear {
+    clear: both;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.thumb {
+    display: block;
+}
+.thumb img {
+    display: block;
+    width: 100%;
+}
+.element-rotation {
+    transform: rotate(-88deg);
+}
+a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-family: product_sansregular;
+}
+a:hover, [type="submit"]:hover {
+    opacity: 0.85;
+    transition-duration: 0.6s;
+}
+.wrapper {
+    width: 90%;
+    margin: 0px auto;
+    max-width: 1300px;
+}
+#spotlight {
+   padding: 25px 0;
+}
+#spotlight section.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#spotlight section.wrapper header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+#spotlight section.wrapper header h1 {
+    font-size: 20px;
+}
+#spotlight section.wrapper header h1:first-child {
+    margin-right: 30px;
+}
+#spotlight section.wrapper header h1 a {
+    display: inline-block;
+}
+#spotlight section.wrapper header h1 a img {
+    display: block;
+    width: 100%;
+}
+#spotlight section.wrapper div.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#spotlight section.wrapper div.mobile div.screen {
+    width: 50%;
+}
+#spotlight section.wrapper div.mobile div.screen div.output {
+}
+#spotlight section.wrapper div.mobile div.screen div.output #result {
+    padding: 25px 0px;
+    font-size: 50px;
+}
+#spotlight section.wrapper div.mobile div.screen div.values {
+    display: flex;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers li {
+    margin: 0px 30px 30px 0px;
+    width: 25%;
+    font-size: 18px;
+    box-shadow: 5px 6px 15px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers li.equals {
+    margin: 0px;
+    width: 87%;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers li:nth-child(3n) {
+    margin-right: 0px;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers li:nth-child(9n) {
+    margin-bottom: 0px;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.integers li a {
+    padding: 35px;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.operators {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 15%;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.operators li {
+    margin: 0px 0px 30px;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: 5px 6px 15px 0px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.operators li:last-child {
+    margin-bottom: 0px;
+}
+#spotlight section.wrapper div.mobile div.screen div.values ul.operators li a {
+    padding: 35px;
+}
